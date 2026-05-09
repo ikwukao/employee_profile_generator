@@ -26,6 +26,8 @@ address += ', Apartment 4B'
 
 # Step 7
 employee_age = 28
+experience_years = 5
+
 
 # More interesting part
 employee_info = full_name + ' is ' + str(employee_age) + ' years old'
@@ -35,3 +37,10 @@ experience_info = 'Experience: ' + str(experience_years) + ' years'
 print(experience_info)
 
 employee_card = f'Employee: {full_name} | Age: {employee_age}'
+
+# Updat employee card
+position = 'Data Analyst'
+salary = 75000
+
+employee_card = f'Employee: {full_name} | Age: {employee_age} | Position: {position} | Salary: ${salary}'
+print(employee_card)
